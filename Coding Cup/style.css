@@ -1,0 +1,549 @@
+#cuadrado { 
+     height: 300px; 
+     width: 270px;
+     background: #ea5b0c; 
+    /* margin-top:2px solid color="#ffffff"; */
+     margin: 0 4px 4px 0;
+
+
+}
+
+#circuloCoding{
+	justify-content: center;
+	align-items: center;
+	display:inline-flex;
+    position: absolute;
+	background: #ffffff;
+	border-radius: 50%;
+	height:100px;
+	width: 100px;
+	box-shadow: 0 2px 1px rgba(0,0,0,.9) inset;
+	margin-top: 184px;
+	margin-left: 130px;
+	transform: rotate(40deg);
+	z-index: 3;
+
+	animation-name: logoCodingScale;
+	animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-duration:1.7s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    transform: scale(0,0);
+
+
+}
+
+
+
+
+
+#coding{
+	
+	height: 75px;
+	width: 75px;
+}
+
+
+ #rec1{
+ 	height: 20px;
+ 	width: 270px;
+ 	margin-bottom: 4px;
+ 	background:  #f8aa00;
+
+ }
+ #rec2{
+ 	height: 33px;
+ 	width: 270px; 
+ 	margin-bottom: 4px;
+    background: #ea5b0c; 
+
+ }
+
+
+
+
+
+ #rec3{
+ 	height: 176px;
+ 	width: 130px;
+ 	background: #c73f0b;
+ 	margin-bottom: 4px;
+ }
+
+ #rec4{
+ 	height: 20px;
+ 	width: 130px;
+ 	background:  #f8aa00;
+ 	margin-bottom: 4px;
+
+ }
+
+#fechas{
+
+	font-family: arial;
+	font-size: 20px;
+	font-weight: 600;
+	color: #ffffff;
+	width: 105px;
+	height: 80px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.9);
+	padding-top: 100px;
+	padding-left: 35px;
+    transform: rotate(35deg);
+    z-index: 3;
+
+}
+
+#letrasCC{
+
+	font-family: arial;
+	font-size: 31px;
+	font-weight: 600;
+	color: #ffffff;
+	margin-top: 250px;
+	margin-left: 275px;
+
+	display:inline-flex;
+    position: absolute;
+    transform: rotate(40deg);
+    width: 80px;
+    height: 100px;
+
+
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+     z-index: 4;
+    
+
+}
+
+
+#divCCLetras{
+
+	transform: rotate(40deg);
+    animation-name: codingTranslate;
+	animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-duration:1.2s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    z-index: 3;
+   
+}
+
+ #rec5{
+ 	height: 158px;
+ 	width: 130px;
+ 	background: #ea5b0c;
+ 	margin-bottom: 4px;
+
+ }
+
+ 
+
+#logoSC{
+  height: 40px;
+  width: 155%;
+  background: #ea5b0c;
+  justify-content: center;
+  align-items: center;
+  margin-top: -205px;
+  margin-left: -290px;
+  z-index: 0;
+
+animation-fill-mode: forwards;
+  animation-delay: s;
+  animation-name:barraSC;
+  animation-duration:1s;
+  animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+  transform: translateX(950px);
+	
+ 
+}
+
+#sc{
+	margin-left: 53px;
+	width: 35px;
+	height: 35px;
+	margin-top: 3px;
+	z-index: 0;
+
+	animation-name: letrasSC;
+	animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration:1.2s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+#sclogo{
+	margin-top: 3px;
+	margin-left: 5px;
+	width: 145px;
+	height: 32px;
+	animation-name: letrasSC;
+	animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration:1.2s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+
+
+}
+
+#codingC2018{
+ 
+width: 900px;
+height: 100px;
+position: fixed;
+margin-top: -320px;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-left: -280px;
+
+
+
+}
+
+#terceraEd{
+	font-family: arial;
+	font-size: 30px;
+	font-weight: 600;
+	font-variant: small-caps;
+    
+	
+
+
+}
+
+#MainRight{
+
+ float: right;
+ margin-top: 220px;
+ margin-left: -200px;
+width: 600px;
+height: 100%;
+
+ 
+
+}
+
+
+#inscribete{
+
+    
+	font-family: arial;
+	font-size: 35px;
+	font-weight: 600;
+	color:  #ea5b0c;
+
+	animation-delay: 4s;
+    animation-name:parpadeoInscribete;
+    animation-duration:.5s;
+    animation-iteration-count: 2;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+   
+
+
+}
+
+#bigcoding{
+
+
+width: 200px;
+}
+
+#divbigcoding{
+
+	font-family: arial;
+	font-size: 95px;
+	font-weight: 600;
+	color: #ffffff;
+	display:inline-flex;
+    position: absolute;
+    
+    margin-top: -150px;
+    margin-left: -500px;
+
+   text-shadow: 1px 2px 0 #e6854f,
+               2px 4px 0 #e67c41,
+               3px 6px 0 #ea6e29,
+               4px 8px 0 #ef671c,
+               5px 10px 0 #ea5b0c,
+               0 12px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2);
+
+    animation-delay: 4s;
+    animation-name:codingSacudir;
+    animation-duration:.7s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    animation-fill-mode: forwards;
+
+}
+
+#tres{
+	
+	
+	animation-delay: 1s;
+    animation-name:trianguloMov;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    animation-fill-mode: forwards;
+    transform: translate(-60px, 65px);
+ 	height: 175.5px;
+ 	width: 405px;
+ 	background:#c9400b;
+ 	z-index: 1;
+ 
+
+}
+
+ #MainLeft{
+ 	display: inline-flex;
+ 	
+ 	
+
+ }
+
+
+
+#circuloITSUR{
+	
+	background:#c9400b;
+	border-radius: 50%;
+	height:65px;
+	width: 65px;
+	animation-delay: 0s;
+    animation-name:rotarCirculo;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(.29,.88,.74,1.4);
+    animation-fill-mode: forwards;
+    z-index: 2;
+    
+
+}
+
+
+#itsur{
+	
+	height: 65px;
+	width: 65px;
+	transform: rotate(40deg);
+}
+
+
+
+@keyframes rotarCirculo{
+    from{
+
+   transform: translate(270px,-200px) rotate(360deg);
+	
+
+    } to{
+
+   
+     /*transform: translate(325px,-155px);*/
+     
+     transform: translate(325px,-155px);
+   
+
+
+    }}
+
+@keyframes trianguloMov{
+    from{
+    	
+	transform: translate(-60px, 65px);
+
+    } to{
+    	transform: translate(0px, 0px);
+    }}
+
+    #main{
+    	overflow: hidden;
+    	width: 100%;
+    	height: 280px;
+    }
+
+    #abajo{
+        margin-top: -384px;
+ 	    margin-left: -190px;
+    	transform: rotate(-40deg);
+    	z-index: 2;
+    }
+
+
+
+    @keyframes barraSC{
+
+    	from{
+    		transform: translateX(950px);
+    	} to{
+    		transform: translateX(10px);
+
+    	}
+
+    }
+
+
+
+ @keyframes letrasSC{
+
+ 	from{
+
+        transform: skew(35deg);
+ 	} to{
+         transform: skew(0deg);
+
+ 	}
+
+ }
+
+     
+   @keyframes parpadeoInscribete{
+
+ 	from{
+
+       color:  #ea5b0c;
+ 	} to{
+         color: #65092d;
+
+ 	}
+
+ }
+    
+
+@keyframes codingSacudir{
+
+     from{
+
+    margin-top: -250px;
+    margin-left: -500px;
+
+ 	}33%{
+ 		transform: rotate(3deg);
+
+ 		}66%{
+         transform: rotate(-3deg);
+
+ 			} to{
+
+ 	margin-top: -150px;
+    margin-left: -500px; 
+   
+        
+
+ 	}
+
+ }
+    
+
+#uno{
+   
+  
+
+    animation-delay: 2s;
+    animation-name:subirUno;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(.29,.88,.74,1.4);
+    animation-fill-mode: forwards;
+    transform: scale(0,0);
+
+}
+
+
+#dos{
+   
+  
+
+    animation-delay: 2s;
+    animation-name:bajarDos;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(.29,.88,.74,1.4);
+    animation-fill-mode: forwards;
+    z-index: 0;
+    transform: scale(0,0)
+
+}
+
+
+@keyframes subirUno{
+
+ 	from{
+
+     
+     
+     transform: translateY(90px);
+    
+   
+ 	} to{
+
+ 	
+   
+        transform: translateY(20px);
+
+ 	}
+
+ }
+
+ 
+ @keyframes bajarDos{
+
+ 	from{
+    transform: translateY(-90px);
+     
+     
+    
+   
+ 	} to{    
+          transform: translateY(5px);
+ 	}
+
+ }
+
+ @keyframes logoCodingScale{
+
+ 	from{
+
+     
+      transform: scale(0,0);
+    
+   
+ 	} to{    
+ 		transform: scale(1,1) rotate(40deg);
+
+
+ 	}
+
+ }
+
+
+@keyframes codingTranslate{
+
+ 	from{
+       
+   transform: translateX(30px);
+       
+    
+   
+ 	} to{    
+ 	   transform: translateX(0px);
+
+
+ 	}
+
+ }
+
+
+ 
